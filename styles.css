@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+*{
+  padding: 0;
+  margin: 0;
+}
+.body{
+  background-color: #f5f5f5;
+}
+
+.header{
+  height: 80px;
+  background-color: #011e29;
+  padding:5px;
+  color:white;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.Main{
+  display:flex;
+  justify-content: space-evenly;
+  width: 100%;
+ 
+}
+.latest-news-section{
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  flex:1;
+ 
+}
+.main-artical{
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  flex:1;
+}
+.pictorial-news-section{
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  flex: 1;
+}
